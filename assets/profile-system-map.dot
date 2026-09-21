@@ -1,0 +1,56 @@
+// Source for the profile hero system map.
+// Render with Graphviz: dot -Tsvg assets/profile-system-map.dot -o profile-system-map.svg
+// The rendered graph is composed into assets/profile-hero.svg.
+
+digraph ProfileSystemMap {
+  graph [
+    rankdir=LR,
+    bgcolor="transparent",
+    pad="0.15",
+    margin="0",
+    nodesep="0.65",
+    ranksep="0.78",
+    splines=ortho,
+    outputorder=edgesfirst
+  ];
+
+  node [
+    shape=box,
+    style="rounded,filled",
+    fillcolor="#0F172A",
+    color="#475569",
+    fontcolor="#E2E8F0",
+    fontname="DejaVu Sans Mono Bold",
+    fontsize=11,
+    penwidth=1.4,
+    margin="0.20,0.12",
+    height=0.42
+  ];
+
+  edge [
+    color="#64748B",
+    penwidth=1.5,
+    arrowsize=0.6,
+    arrowhead=normal
+  ];
+
+  operations [label="OPERATIONS", color="#22D3EE"];
+  systems    [label="SYSTEMS",    color="#38BDF8"];
+  apis       [label="APIs",       color="#60A5FA"];
+  data       [label="DATA",       color="#60A5FA"];
+  automation [label="AUTOMATION", color="#818CF8"];
+  ai         [label="APPLIED AI", color="#A78BFA"];
+
+  { rank=same; apis; data; }
+  { rank=same; automation; ai; }
+
+  operations -> systems [color="#22D3EE"];
+  systems -> apis [color="#38BDF8"];
+  systems -> data [color="#38BDF8"];
+  apis -> automation [color="#818CF8"];
+  apis -> ai [color="#8B5CF6"];
+  data -> ai [color="#8B5CF6"];
+
+  apis -> data [style=invis, weight=10];
+  automation -> ai [style=invis, weight=10];
+}

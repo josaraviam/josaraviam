@@ -1,0 +1,80 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Joel Saravia — Software Engineer</title>
+  <desc id="desc">A dark systems-style profile banner connecting operations, software, APIs, data, and applied AI.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1020"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="650" y1="80" x2="1090" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#67E8F9"/>
+      <stop offset="0.5" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#FFFFFF" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="420" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="420" rx="28" fill="url(#grid)"/>
+  <rect x="1" y="1" width="1198" height="418" rx="27" stroke="#FFFFFF" stroke-opacity="0.08"/>
+
+  <g>
+    <text x="70" y="105" fill="#94A3B8" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="16" font-weight="700" letter-spacing="3">SOFTWARE ENGINEER</text>
+    <text x="70" y="175" fill="#F8FAFC" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="58" font-weight="800" letter-spacing="-1.5">JOEL SARAVIA</text>
+    <text x="70" y="223" fill="#CBD5E1" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="22" font-weight="500">
+      Business systems · integrations · automation · applied AI
+    </text>
+
+    <line x1="70" y1="265" x2="490" y2="265" stroke="url(#accent)" stroke-width="3" stroke-linecap="round"/>
+
+    <text x="70" y="310" fill="#94A3B8" font-family="Inter, ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">
+      operational problem → architecture → software → production
+    </text>
+  </g>
+
+  <g stroke="url(#accent)" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M695 118 L824 118 L913 188"/>
+    <path d="M695 118 L760 213 L913 188"/>
+    <path d="M760 213 L850 298"/>
+    <path d="M913 188 L1030 125"/>
+    <path d="M913 188 L1030 275"/>
+    <path d="M850 298 L1030 275"/>
+  </g>
+
+  <g fill="#0F172A" stroke-width="2">
+    <rect x="625" y="88" width="140" height="58" rx="14" stroke="#67E8F9"/>
+    <rect x="700" y="184" width="120" height="58" rx="14" stroke="#60A5FA"/>
+    <rect x="850" y="159" width="126" height="58" rx="14" stroke="#7C9CF5"/>
+    <rect x="790" y="269" width="120" height="58" rx="14" stroke="#818CF8"/>
+    <rect x="980" y="96" width="112" height="58" rx="14" stroke="#A78BFA"/>
+    <rect x="980" y="246" width="112" height="58" rx="14" stroke="#A78BFA"/>
+  </g>
+
+  <g fill="#E2E8F0" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" font-weight="700" text-anchor="middle">
+    <text x="695" y="123">OPERATIONS</text>
+    <text x="760" y="219">SYSTEMS</text>
+    <text x="913" y="194">APIs</text>
+    <text x="850" y="304">DATA</text>
+    <text x="1036" y="131">AUTOMATION</text>
+    <text x="1036" y="281">APPLIED AI</text>
+  </g>
+
+  <g fill="url(#accent)" filter="url(#glow)">
+    <circle cx="695" cy="118" r="4"/>
+    <circle cx="760" cy="213" r="4"/>
+    <circle cx="913" cy="188" r="4"/>
+    <circle cx="850" cy="298" r="4"/>
+    <circle cx="1030" cy="125" r="4"/>
+    <circle cx="1030" cy="275" r="4"/>
+  </g>
+</svg>

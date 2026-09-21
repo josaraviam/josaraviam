@@ -1,80 +1,68 @@
-<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<svg width="1200" height="390" viewBox="0 0 1200 390" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
   <title id="title">Joel Saravia — Software Engineer</title>
-  <desc id="desc">A dark systems-style profile banner connecting operations, software, APIs, data, and applied AI.</desc>
+  <desc id="desc">A systems-style banner connecting operations, software systems, APIs, data, automation, and applied AI.</desc>
 
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0B1020"/>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="390" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A1020"/>
       <stop offset="1" stop-color="#111827"/>
     </linearGradient>
-    <linearGradient id="accent" x1="650" y1="80" x2="1090" y2="340" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#67E8F9"/>
-      <stop offset="0.5" stop-color="#60A5FA"/>
-      <stop offset="1" stop-color="#A78BFA"/>
-    </linearGradient>
     <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
-      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#FFFFFF" stroke-opacity="0.035" stroke-width="1"/>
+      <path d="M28 0H0V28" fill="none" stroke="#94A3B8" stroke-opacity="0.045" stroke-width="1"/>
     </pattern>
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="5" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
   </defs>
 
-  <rect width="1200" height="420" rx="28" fill="url(#bg)"/>
-  <rect width="1200" height="420" rx="28" fill="url(#grid)"/>
-  <rect x="1" y="1" width="1198" height="418" rx="27" stroke="#FFFFFF" stroke-opacity="0.08"/>
+  <rect width="1200" height="390" rx="26" fill="url(#background)"/>
+  <rect width="1200" height="390" rx="26" fill="url(#grid)"/>
+  <rect x="1" y="1" width="1198" height="388" rx="25" stroke="#E2E8F0" stroke-opacity="0.08"/>
 
+  <!-- Identity -->
   <g>
-    <text x="70" y="105" fill="#94A3B8" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="16" font-weight="700" letter-spacing="3">SOFTWARE ENGINEER</text>
-    <text x="70" y="175" fill="#F8FAFC" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="58" font-weight="800" letter-spacing="-1.5">JOEL SARAVIA</text>
-    <text x="70" y="223" fill="#CBD5E1" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="22" font-weight="500">
-      Business systems · integrations · automation · applied AI
-    </text>
+    <text x="60" y="82" fill="#7DD3FC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="700" letter-spacing="2.4">SOFTWARE ENGINEER</text>
+    <text x="60" y="145" fill="#F8FAFC" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="54" font-weight="800" letter-spacing="-1.2">JOEL SARAVIA</text>
+    <text x="60" y="190" fill="#D7E0EA" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="20" font-weight="500">Business systems · integrations · automation · applied AI</text>
 
-    <line x1="70" y1="265" x2="490" y2="265" stroke="url(#accent)" stroke-width="3" stroke-linecap="round"/>
+    <line x1="60" y1="232" x2="505" y2="232" stroke="#22D3EE" stroke-width="2" stroke-linecap="round" opacity="0.9"/>
 
-    <text x="70" y="310" fill="#94A3B8" font-family="Inter, ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">
-      operational problem → architecture → software → production
-    </text>
+    <text x="60" y="274" fill="#8FA4BC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">operational problem → architecture → software → production</text>
   </g>
 
-  <g stroke="url(#accent)" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M695 118 L824 118 L913 188"/>
-    <path d="M695 118 L760 213 L913 188"/>
-    <path d="M760 213 L850 298"/>
-    <path d="M913 188 L1030 125"/>
-    <path d="M913 188 L1030 275"/>
-    <path d="M850 298 L1030 275"/>
+  <!-- System map connections -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" opacity="0.8">
+    <path d="M760 111H824" stroke="#38BDF8"/>
+    <path d="M880 134V185" stroke="#60A5FA"/>
+    <path d="M936 111H994" stroke="#818CF8"/>
+    <path d="M936 208H994" stroke="#818CF8"/>
+    <path d="M760 255H824" stroke="#60A5FA"/>
+    <path d="M936 208L1010 274" stroke="#8B5CF6"/>
+    <path d="M936 255H994" stroke="#8B5CF6"/>
   </g>
 
-  <g fill="#0F172A" stroke-width="2">
-    <rect x="625" y="88" width="140" height="58" rx="14" stroke="#67E8F9"/>
-    <rect x="700" y="184" width="120" height="58" rx="14" stroke="#60A5FA"/>
-    <rect x="850" y="159" width="126" height="58" rx="14" stroke="#7C9CF5"/>
-    <rect x="790" y="269" width="120" height="58" rx="14" stroke="#818CF8"/>
-    <rect x="980" y="96" width="112" height="58" rx="14" stroke="#A78BFA"/>
-    <rect x="980" y="246" width="112" height="58" rx="14" stroke="#A78BFA"/>
-  </g>
-
-  <g fill="#E2E8F0" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" font-weight="700" text-anchor="middle">
-    <text x="695" y="123">OPERATIONS</text>
-    <text x="760" y="219">SYSTEMS</text>
-    <text x="913" y="194">APIs</text>
-    <text x="850" y="304">DATA</text>
-    <text x="1036" y="131">AUTOMATION</text>
-    <text x="1036" y="281">APPLIED AI</text>
-  </g>
-
-  <g fill="url(#accent)" filter="url(#glow)">
-    <circle cx="695" cy="118" r="4"/>
-    <circle cx="760" cy="213" r="4"/>
-    <circle cx="913" cy="188" r="4"/>
-    <circle cx="850" cy="298" r="4"/>
-    <circle cx="1030" cy="125" r="4"/>
-    <circle cx="1030" cy="275" r="4"/>
+  <!-- System map nodes -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="700" text-anchor="middle">
+    <g>
+      <rect x="640" y="88" width="120" height="46" rx="11" fill="#0F172A" stroke="#38BDF8" stroke-width="1.5"/>
+      <text x="700" y="116" fill="#E2E8F0">OPERATIONS</text>
+    </g>
+    <g>
+      <rect x="824" y="88" width="112" height="46" rx="11" fill="#0F172A" stroke="#60A5FA" stroke-width="1.5"/>
+      <text x="880" y="116" fill="#E2E8F0">SYSTEMS</text>
+    </g>
+    <g>
+      <rect x="824" y="185" width="112" height="46" rx="11" fill="#0F172A" stroke="#60A5FA" stroke-width="1.5"/>
+      <text x="880" y="213" fill="#E2E8F0">APIs</text>
+    </g>
+    <g>
+      <rect x="640" y="232" width="120" height="46" rx="11" fill="#0F172A" stroke="#60A5FA" stroke-width="1.5"/>
+      <text x="700" y="260" fill="#E2E8F0">DATA</text>
+    </g>
+    <g>
+      <rect x="994" y="88" width="128" height="46" rx="11" fill="#0F172A" stroke="#A78BFA" stroke-width="1.5"/>
+      <text x="1058" y="116" fill="#E2E8F0">AUTOMATION</text>
+    </g>
+    <g>
+      <rect x="994" y="251" width="128" height="46" rx="11" fill="#0F172A" stroke="#A78BFA" stroke-width="1.5"/>
+      <text x="1058" y="279" fill="#E2E8F0">APPLIED AI</text>
+    </g>
   </g>
 </svg>

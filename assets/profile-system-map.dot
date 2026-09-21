@@ -1,16 +1,18 @@
-// Source for the profile hero system map.
-// Render with Graphviz: dot -Tsvg assets/profile-system-map.dot -o profile-system-map.svg
-// The rendered graph is composed into assets/profile-hero.svg.
+// Source for the profile hero domain map.
+// Render with Graphviz:
+//   dot -Tsvg assets/profile-system-map.dot -o profile-system-map.svg
+//
+// The generated graph is composed into assets/profile-hero.svg.
 
-digraph ProfileSystemMap {
+digraph ProfileDomainMap {
   graph [
-    rankdir=LR,
+    rankdir=TB,
     bgcolor="transparent",
-    pad="0.15",
+    pad="0.08",
     margin="0",
-    nodesep="0.65",
-    ranksep="0.78",
-    splines=ortho,
+    nodesep="0.34",
+    ranksep="0.38",
+    splines=polyline,
     outputorder=edgesfirst
   ];
 
@@ -18,39 +20,55 @@ digraph ProfileSystemMap {
     shape=box,
     style="rounded,filled",
     fillcolor="#0F172A",
-    color="#475569",
-    fontcolor="#E2E8F0",
+    fontcolor="#E5E7EB",
     fontname="DejaVu Sans Mono Bold",
-    fontsize=11,
-    penwidth=1.4,
-    margin="0.20,0.12",
-    height=0.42
+    fontsize=9.5,
+    penwidth=1.15,
+    margin="0.13,0.08",
+    height=0.32
   ];
 
   edge [
     color="#64748B",
-    penwidth=1.5,
-    arrowsize=0.6,
+    penwidth=1.1,
+    arrowsize=0.45,
     arrowhead=normal
   ];
 
-  operations [label="OPERATIONS", color="#22D3EE"];
-  systems    [label="SYSTEMS",    color="#38BDF8"];
-  apis       [label="APIs",       color="#60A5FA"];
-  data       [label="DATA",       color="#60A5FA"];
-  automation [label="AUTOMATION", color="#818CF8"];
-  ai         [label="APPLIED AI", color="#A78BFA"];
+  operations   [label="COMPLEX OPERATIONS", color="#94A3B8"];
+  structuring  [label="PROBLEM STRUCTURING", color="#22D3EE"];
 
-  { rank=same; apis; data; }
-  { rank=same; automation; ai; }
+  systems      [label="BUSINESS SYSTEMS", color="#64748B"];
+  integrations [label="INTEGRATIONS", color="#64748B"];
+  data         [label="DATA", color="#64748B"];
 
-  operations -> systems [color="#22D3EE"];
-  systems -> apis [color="#38BDF8"];
-  systems -> data [color="#38BDF8"];
-  apis -> automation [color="#818CF8"];
-  apis -> ai [color="#8B5CF6"];
-  data -> ai [color="#8B5CF6"];
+  design       [label="SYSTEM DESIGN", color="#60A5FA"];
+  automation   [label="AUTOMATION", color="#60A5FA"];
+  ai           [label="APPLIED AI", color="#60A5FA"];
 
-  apis -> data [style=invis, weight=10];
+  outcome      [label="OPERABLE SOLUTIONS", color="#CBD5E1"];
+
+  operations -> structuring [color="#94A3B8"];
+
+  structuring -> systems [color="#22D3EE"];
+  structuring -> integrations [color="#22D3EE"];
+  structuring -> data [color="#22D3EE"];
+
+  systems -> design;
+  integrations -> design;
+  integrations -> automation;
+  data -> automation;
+  data -> ai;
+
+  design -> outcome [color="#60A5FA"];
+  automation -> outcome [color="#60A5FA"];
+  ai -> outcome [color="#60A5FA"];
+
+  { rank=same; systems; integrations; data; }
+  { rank=same; design; automation; ai; }
+
+  systems -> integrations [style=invis, weight=10];
+  integrations -> data [style=invis, weight=10];
+  design -> automation [style=invis, weight=10];
   automation -> ai [style=invis, weight=10];
 }

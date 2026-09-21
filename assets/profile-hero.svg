@@ -1,7 +1,6 @@
 <svg width="1200" height="390" viewBox="0 0 1200 390" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
   <title id="title">Joel Saravia — Software Engineer</title>
-  <desc id="desc">A systems-style banner connecting operations, software systems, APIs, data, automation, and applied AI.</desc>
-
+  <desc id="desc">A systems-style banner connecting operations, business systems, APIs, data, automation, and applied AI.</desc>
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1200" y2="390" gradientUnits="userSpaceOnUse">
       <stop stop-color="#0A1020"/>
@@ -14,55 +13,90 @@
 
   <rect width="1200" height="390" rx="26" fill="url(#background)"/>
   <rect width="1200" height="390" rx="26" fill="url(#grid)"/>
-  <rect x="1" y="1" width="1198" height="388" rx="25" stroke="#E2E8F0" stroke-opacity="0.08"/>
 
-  <!-- Identity -->
   <g>
     <text x="60" y="82" fill="#7DD3FC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="700" letter-spacing="2.4">SOFTWARE ENGINEER</text>
     <text x="60" y="145" fill="#F8FAFC" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="54" font-weight="800" letter-spacing="-1.2">JOEL SARAVIA</text>
     <text x="60" y="190" fill="#D7E0EA" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="20" font-weight="500">Business systems · integrations · automation · applied AI</text>
-
     <line x1="60" y1="232" x2="505" y2="232" stroke="#22D3EE" stroke-width="2" stroke-linecap="round" opacity="0.9"/>
-
     <text x="60" y="274" fill="#8FA4BC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">operational problem → architecture → software → production</text>
   </g>
 
-  <!-- System map connections -->
-  <g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" opacity="0.8">
-    <path d="M760 111H824" stroke="#38BDF8"/>
-    <path d="M880 134V185" stroke="#60A5FA"/>
-    <path d="M936 111H994" stroke="#818CF8"/>
-    <path d="M936 208H994" stroke="#818CF8"/>
-    <path d="M760 255H824" stroke="#60A5FA"/>
-    <path d="M936 208L1010 274" stroke="#8B5CF6"/>
-    <path d="M936 255H994" stroke="#8B5CF6"/>
-  </g>
+  <svg x="610" y="72" width="545" height="235" viewBox="0 0 513.6 128.6" preserveAspectRatio="xMidYMid meet">
+    <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(10.8 117.8)">
+      <title>ProfileSystemMap</title>
 
-  <!-- System map nodes -->
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="700" text-anchor="middle">
-    <g>
-      <rect x="640" y="88" width="120" height="46" rx="11" fill="#0F172A" stroke="#38BDF8" stroke-width="1.5"/>
-      <text x="700" y="116" fill="#E2E8F0">OPERATIONS</text>
+      <g id="edge1" class="edge">
+        <title>operations-&gt;systems</title>
+        <path fill="none" stroke="#22d3ee" stroke-width="1.5" d="M96.07,-53C96.07,-53 145.84,-53 145.84,-53"/>
+        <polygon fill="#22d3ee" stroke="#22d3ee" stroke-width="1.5" points="145.84,-55.1 151.84,-53 145.84,-50.9 145.84,-55.1"/>
+      </g>
+
+      <g id="edge2" class="edge">
+        <title>systems-&gt;apis</title>
+        <path fill="none" stroke="#38bdf8" stroke-width="1.5" d="M228.08,-58C259.17,-58 298,-58 298,-58 298,-58 298,-70.99 298,-70.99"/>
+        <polygon fill="#38bdf8" stroke="#38bdf8" stroke-width="1.5" points="295.9,-70.99 298,-76.99 300.1,-70.99 295.9,-70.99"/>
+      </g>
+
+      <g id="edge3" class="edge">
+        <title>systems-&gt;data</title>
+        <path fill="none" stroke="#38bdf8" stroke-width="1.5" d="M228.27,-48C264.05,-48 312,-48 312,-48 312,-48 312,-36.34 312,-36.34"/>
+        <polygon fill="#38bdf8" stroke="#38bdf8" stroke-width="1.5" points="314.1,-36.34 312,-30.34 309.9,-36.34 314.1,-36.34"/>
+      </g>
+
+      <g id="edge4" class="edge">
+        <title>apis-&gt;automation</title>
+        <path fill="none" stroke="#818cf8" stroke-width="1.5" d="M340.32,-97C340.32,-97 389.99,-97 389.99,-97"/>
+        <polygon fill="#818cf8" stroke="#818cf8" stroke-width="1.5" points="389.99,-99.1 395.99,-97 389.99,-94.9 389.99,-99.1"/>
+      </g>
+
+      <g id="edge5" class="edge">
+        <title>apis-&gt;ai</title>
+        <path fill="none" stroke="#8b5cf6" stroke-width="1.5" d="M340,-87C354,-87 368,-87 368,-87 368,-87 368,-20 368,-20 368,-20 389.87,-20 389.87,-20"/>
+        <polygon fill="#8b5cf6" stroke="#8b5cf6" stroke-width="1.5" points="389.87,-22.1 395.87,-20 389.87,-17.9 389.87,-22.1"/>
+      </g>
+
+      <g id="edge6" class="edge">
+        <title>data-&gt;ai</title>
+        <path fill="none" stroke="#8b5cf6" stroke-width="1.5" d="M340.32,-10C340.32,-10 389.99,-10 389.99,-10"/>
+        <polygon fill="#8b5cf6" stroke="#8b5cf6" stroke-width="1.5" points="389.99,-12.1 395.99,-10 389.99,-7.9 389.99,-12.1"/>
+      </g>
+
+      <g id="node1" class="node">
+        <title>operations</title>
+        <path fill="#0f172a" stroke="#22d3ee" stroke-width="1.4" d="M86,-68C86,-68 10,-68 10,-68 5,-68 0,-63 0,-58V-48C0,-43 5,-38 10,-38H86C91,-38 96,-43 96,-48V-58C96,-63 91,-68 86,-68"/>
+        <text text-anchor="middle" x="48" y="-50.2" font-family="DejaVu Sans Mono, ui-monospace, monospace" font-weight="700" font-size="11" fill="#e2e8f0">OPERATIONS</text>
+      </g>
+
+      <g id="node2" class="node">
+        <title>systems</title>
+        <path fill="#0f172a" stroke="#38bdf8" stroke-width="1.4" d="M218,-68H162C157,-68 152,-63 152,-58V-48C152,-43 157,-38 162,-38H218C223,-38 228,-43 228,-48V-58C228,-63 223,-68 218,-68"/>
+        <text text-anchor="middle" x="190" y="-50.2" font-family="DejaVu Sans Mono, ui-monospace, monospace" font-weight="700" font-size="11" fill="#e2e8f0">SYSTEMS</text>
+      </g>
+
+      <g id="node3" class="node">
+        <title>apis</title>
+        <path fill="#0f172a" stroke="#60a5fa" stroke-width="1.4" d="M330,-107H294C289,-107 284,-102 284,-97V-87C284,-82 289,-77 294,-77H330C335,-77 340,-82 340,-87V-97C340,-102 335,-107 330,-107"/>
+        <text text-anchor="middle" x="312" y="-89.2" font-family="DejaVu Sans Mono, ui-monospace, monospace" font-weight="700" font-size="11" fill="#e2e8f0">APIs</text>
+      </g>
+
+      <g id="node4" class="node">
+        <title>data</title>
+        <path fill="#0f172a" stroke="#60a5fa" stroke-width="1.4" d="M330,-30H294C289,-30 284,-25 284,-20V-10C284,-5 289,0 294,0H330C335,0 340,-5 340,-10V-20C340,-25 335,-30 330,-30"/>
+        <text text-anchor="middle" x="312" y="-12.2" font-family="DejaVu Sans Mono, ui-monospace, monospace" font-weight="700" font-size="11" fill="#e2e8f0">DATA</text>
+      </g>
+
+      <g id="node5" class="node">
+        <title>automation</title>
+        <path fill="#0f172a" stroke="#818cf8" stroke-width="1.4" d="M482,-107H406C401,-107 396,-102 396,-97V-87C396,-82 401,-77 406,-77H482C487,-77 492,-82 492,-87V-97C492,-102 487,-107 482,-107"/>
+        <text text-anchor="middle" x="444" y="-89.2" font-family="DejaVu Sans Mono, ui-monospace, monospace" font-weight="700" font-size="11" fill="#e2e8f0">AUTOMATION</text>
+      </g>
+
+      <g id="node6" class="node">
+        <title>ai</title>
+        <path fill="#0f172a" stroke="#a78bfa" stroke-width="1.4" d="M482,-30H406C401,-30 396,-25 396,-20V-10C396,-5 401,0 406,0H482C487,0 492,-5 492,-10V-20C492,-25 487,-30 482,-30"/>
+        <text text-anchor="middle" x="444" y="-12.2" font-family="DejaVu Sans Mono, ui-monospace, monospace" font-weight="700" font-size="11" fill="#e2e8f0">APPLIED AI</text>
+      </g>
     </g>
-    <g>
-      <rect x="824" y="88" width="112" height="46" rx="11" fill="#0F172A" stroke="#60A5FA" stroke-width="1.5"/>
-      <text x="880" y="116" fill="#E2E8F0">SYSTEMS</text>
-    </g>
-    <g>
-      <rect x="824" y="185" width="112" height="46" rx="11" fill="#0F172A" stroke="#60A5FA" stroke-width="1.5"/>
-      <text x="880" y="213" fill="#E2E8F0">APIs</text>
-    </g>
-    <g>
-      <rect x="640" y="232" width="120" height="46" rx="11" fill="#0F172A" stroke="#60A5FA" stroke-width="1.5"/>
-      <text x="700" y="260" fill="#E2E8F0">DATA</text>
-    </g>
-    <g>
-      <rect x="994" y="88" width="128" height="46" rx="11" fill="#0F172A" stroke="#A78BFA" stroke-width="1.5"/>
-      <text x="1058" y="116" fill="#E2E8F0">AUTOMATION</text>
-    </g>
-    <g>
-      <rect x="994" y="251" width="128" height="46" rx="11" fill="#0F172A" stroke="#A78BFA" stroke-width="1.5"/>
-      <text x="1058" y="279" fill="#E2E8F0">APPLIED AI</text>
-    </g>
-  </g>
+  </svg>
 </svg>

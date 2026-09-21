@@ -10,9 +10,9 @@
   <a href="https://www.credly.com/users/joel-antonio-saravia-monreal.299cc992">Credly</a>
 </p>
 
-I build software at the boundary between **business operations and engineering**.
+I turn **complex operational problems into structured, operable software systems**.
 
-My path started in customer operations and analytics, moved through digital transformation and platform engineering, and is now expanding into applied AI. That background shapes how I build: understand the workflow, constraints, users, and failure modes first; then design the software around them.
+My path started in customer operations and analytics, moved through digital transformation and platform engineering, and is now expanding into applied AI. That background shapes how I build: understand the workflow, constraints, users, and failure modes first; give the problem structure; then choose the architecture and tools that fit it.
 
 > **Customer Operations → Analytics / Process Improvement → Platform Engineering → AI-enabled Technical Solutions**
 
@@ -20,28 +20,36 @@ My path started in customer operations and analytics, moved through digital tran
 
 <table>
   <tr>
-    <td width="50%">
-      <strong>Business systems</strong><br/>
-      Turn operational processes into reliable software workflows.
+    <td width="33%">
+      <strong>Problem structuring & system design</strong><br/>
+      Turn ambiguous operational needs into clear boundaries, workflows, contracts, and technical decisions.
     </td>
-    <td width="50%">
+    <td width="33%">
+      <strong>Business systems</strong><br/>
+      Translate operational processes into reliable software and enterprise-platform workflows.
+    </td>
+    <td width="33%">
       <strong>APIs & integrations</strong><br/>
-      Connect platforms, services, identity, and data through clear contracts.
+      Connect platforms, services, identity, and data through explicit interfaces and failure handling.
     </td>
   </tr>
   <tr>
-    <td width="50%">
+    <td width="33%">
+      <strong>Data & analytics</strong><br/>
+      Structure operational data so systems, decisions, and performance can be understood and improved.
+    </td>
+    <td width="33%">
       <strong>Automation & delivery</strong><br/>
       Remove manual work while preserving control, traceability, testing, and release discipline.
     </td>
-    <td width="50%">
+    <td width="33%">
       <strong>Applied AI</strong><br/>
-      Combine models with tools, APIs, structured data, guardrails, and deterministic software.
+      Use models as one capability inside larger systems with tools, APIs, structured data, guardrails, and deterministic software.
     </td>
   </tr>
 </table>
 
-My working surface includes backend services, REST APIs, SQL and relational data, OAuth and identity, enterprise platforms, React/TypeScript interfaces, CI/CD, and production troubleshooting.
+My working surface includes Python and backend services, REST APIs, SQL and relational data, OAuth and identity, enterprise platforms, React/TypeScript interfaces, CI/CD, and production troubleshooting.
 
 ## Selected work
 
@@ -77,15 +85,15 @@ Independent and project-based work spanning backend APIs, relational data models
 ## How I work
 
 ```text
-problem → discovery → architecture → build → integrate → validate → deploy → operate ↺
+complex problem → structure → architecture → build → integrate → validate → deploy → operate ↺
 ```
 
-I care about the full path from problem to production: system boundaries, integration contracts, authentication and authorization, failure handling, observability, least privilege, maintainability, CI/CD, and what happens after software ships.
+I care about the full path from ambiguity to production: system boundaries, integration contracts, authentication and authorization, failure handling, observability, least privilege, maintainability, CI/CD, and what happens after software ships.
 
 ## Current focus
 
-I'm deepening my work in **applied AI engineering**, particularly agentic systems where a model is one component inside a larger software architecture.
+I'm expanding the toolkit with **applied AI engineering**, particularly agentic systems where a model is one component inside a larger software architecture.
 
-The current focus is tool use, retrieval and grounding, evaluation, observability, security boundaries, and AI workflows that can interact safely with real APIs and business systems.
+The current focus is tool use, retrieval and grounding, evaluation, observability, security boundaries, and AI workflows that can interact safely with real APIs and business systems — without replacing the underlying engineering discipline.
 
-> **The underlying problem stays the same: how do we make complex operations work better through software?**
+> **The constant is not a specific technology: it is turning complex operations into systems that people can actually use and operate.**

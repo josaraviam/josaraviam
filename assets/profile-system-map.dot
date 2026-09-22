@@ -1,0 +1,74 @@
+// Source for the profile hero domain map.
+// Render with Graphviz:
+//   dot -Tsvg assets/profile-system-map.dot -o profile-system-map.svg
+//
+// The generated graph is composed into assets/profile-hero.svg.
+
+digraph ProfileDomainMap {
+  graph [
+    rankdir=TB,
+    bgcolor="transparent",
+    pad="0.08",
+    margin="0",
+    nodesep="0.34",
+    ranksep="0.38",
+    splines=polyline,
+    outputorder=edgesfirst
+  ];
+
+  node [
+    shape=box,
+    style="rounded,filled",
+    fillcolor="#0F172A",
+    fontcolor="#E5E7EB",
+    fontname="DejaVu Sans Mono Bold",
+    fontsize=9.5,
+    penwidth=1.15,
+    margin="0.13,0.08",
+    height=0.32
+  ];
+
+  edge [
+    color="#64748B",
+    penwidth=1.1,
+    arrowsize=0.45,
+    arrowhead=normal
+  ];
+
+  operations   [label="COMPLEX OPERATIONS", color="#94A3B8"];
+  structuring  [label="PROBLEM STRUCTURING", color="#22D3EE"];
+
+  systems      [label="BUSINESS SYSTEMS", color="#64748B"];
+  integrations [label="INTEGRATIONS", color="#64748B"];
+  data         [label="DATA", color="#64748B"];
+
+  design       [label="SYSTEM DESIGN", color="#60A5FA"];
+  automation   [label="AUTOMATION", color="#60A5FA"];
+  ai           [label="APPLIED AI", color="#60A5FA"];
+
+  outcome      [label="OPERABLE SOLUTIONS", color="#CBD5E1"];
+
+  operations -> structuring [color="#94A3B8"];
+
+  structuring -> systems [color="#22D3EE"];
+  structuring -> integrations [color="#22D3EE"];
+  structuring -> data [color="#22D3EE"];
+
+  systems -> design;
+  integrations -> design;
+  integrations -> automation;
+  data -> automation;
+  data -> ai;
+
+  design -> outcome [color="#60A5FA"];
+  automation -> outcome [color="#60A5FA"];
+  ai -> outcome [color="#60A5FA"];
+
+  { rank=same; systems; integrations; data; }
+  { rank=same; design; automation; ai; }
+
+  systems -> integrations [style=invis, weight=10];
+  integrations -> data [style=invis, weight=10];
+  design -> automation [style=invis, weight=10];
+  automation -> ai [style=invis, weight=10];
+}

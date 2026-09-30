@@ -29,7 +29,7 @@
 
 <p>
   <img height="170" src="./profile-summary-card-output/github_dark/3-stats.svg" alt="Joel's GitHub activity stats" />
-  <img height="170" src="./profile-summary-card-output/github_dark/2-most-commit-language.svg" alt="Languages across Joel's GitHub commits" />
+  <img height="170" src="./profile-summary-card-output/github_dark/1-repos-per-language.svg" alt="Languages across Joel's GitHub repositories" />
 </p>
 
 

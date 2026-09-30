@@ -1,4 +1,4 @@
-<img align="right" src="./assets/pixel-bunny.svg" width="135" alt="Cute animated pixel bunny" />
+<img align="right" src="./assets/pixel-bunny.svg" width="155" alt="Panchito-inspired ash-gray lop-eared pixel bunny" />
 
 # Hey! I'm Joel 👋
 

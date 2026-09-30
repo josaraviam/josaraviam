@@ -1,5 +1,5 @@
-<a href="https://kanmandev.itch.io/bunny-animated">
-  <img align="right" src="https://img.itch.zone/aW1nLzE5OTc5NzA0LmdpZg%3D%3D/original/qZgqhU.gif" width="150" alt="Animated pixel bunny by kanmandev" />
+<a href="https://opengameart.org/content/drunk-rabbit">
+  <img align="right" src="https://opengameart.org/sites/default/files/anime-tavsan_0.gif" width="135" alt="Animated pixel rabbit" />
 </a>
 
 # Hey! I'm Joel 👋
@@ -27,7 +27,7 @@
 
 🛠️ **And probably something work-related** — Salesforce, Meta/WhatsApp APIs, n8n, GCP, or whatever two systems someone decided should talk to each other.
 
-## 📈 GitHub at a glance
+## 📊 Stats
 
 <p>
   <img height="170" src="./profile-summary-card-output/github_dark/3-stats.svg" alt="Joel's GitHub activity stats" />
@@ -55,4 +55,4 @@
 > **fun fact:** I enjoy (for some reason) giving structure to things that absolutely do not have structure.  
 > **yes:** Salesforce and n8n can involve actual software engineering 😌
 
-<sub>Pixel bunny by <a href="https://kanmandev.itch.io/bunny-animated">kanmandev</a>.</sub>
+<sub>🐇 Rabbit animation by <a href="https://opengameart.org/content/drunk-rabbit">hansolo</a> · CC BY-SA 3.0</sub>

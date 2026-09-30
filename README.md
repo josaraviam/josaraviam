@@ -2,7 +2,7 @@
 
 ### Software Engineer · Salesforce · Applied AI · Probably automating something
 
-🧑‍💻 I like turning complex and messy real-world problems into software.  
+🧑‍💻 I like turning complex and messy problems into software.  
 🧩 I really enjoy giving structure to things that absolutely do not have any.  
 🔌 I also somehow enjoy debugging APIs and integrations that "should work".  
 🤖 Playing with AI agents, RAG, tool use, evals, and automation.  
@@ -13,7 +13,7 @@
 
 ## 🚧 Currently building
 
-🤖 **AI Customer Ops** — agentic systems + real APIs. Tools, evals, guardrails... MCP? maybe later.
+🤖 **AI Customer Ops** — AI + APIs. Tools, evals, guardrails... MCP? maybe later.
 
 ☁️ **Salesforce Service Lab** — Salesforce engineering. Yup, read that again. Not just "flows and colors": Apex, APIs, OAuth, security, CI/CD, Agentforce... the fun stuff.
 

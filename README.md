@@ -1,6 +1,4 @@
-<a href="https://opengameart.org/content/drunk-rabbit">
-  <img align="right" src="https://opengameart.org/sites/default/files/anime-tavsan_0.gif" width="135" alt="Animated pixel rabbit" />
-</a>
+<img align="right" src="./assets/pixel-bunny.svg" width="135" alt="Cute animated pixel bunny" />
 
 # Hey! I'm Joel 👋
 

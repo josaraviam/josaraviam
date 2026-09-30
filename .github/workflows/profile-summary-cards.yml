@@ -49,4 +49,5 @@ jobs:
             exit 0
           fi
           git commit -m "chore: refresh profile summary cards"
+          git pull --rebase origin main
           git push

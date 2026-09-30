@@ -1,4 +1,6 @@
-<img align="right" src="./assets/terminal-buddy.svg" width="205" alt="Joel's little terminal buddy" />
+<a href="https://kanmandev.itch.io/bunny-animated">
+  <img align="right" src="https://img.itch.zone/aW1nLzE5OTc5NzA0LmdpZg%3D%3D/original/qZgqhU.gif" width="150" alt="Animated pixel bunny by kanmandev" />
+</a>
 
 # Hey! I'm Joel 👋
 
@@ -7,9 +9,11 @@
 🧑‍💻 I like turning complex and messy real-world problems into software.  
 🧩 I really enjoy giving structure to things that absolutely do not have any.  
 🔌 I also somehow enjoy debugging APIs and integrations that "should work".  
-🤖 Currently playing with AI agents, RAG, tool use, evals, and automation.  
+🤖 Playing with AI agents, RAG, tool use, evals, and automation.  
 🌎 Based in Mexico.  
 🎮 When I'm not coding, there's a decent chance I'm playing something.
+
+**🧪 currently:** probably debugging an API or integration that "should work".
 
 <br clear="right"/>
 
@@ -26,9 +30,11 @@
 ## 📈 GitHub at a glance
 
 <p>
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=josaraviam&show_icons=true&theme=github_dark&hide_border=true&bg_color=00000000&rank_icon=github" alt="Joel's GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=josaraviam&layout=compact&theme=github_dark&hide_border=true&bg_color=00000000&langs_count=8&custom_title=Languages%20from%20public%20repos" alt="Most used languages across Joel's public repositories" />
+  <img height="170" src="./profile-summary-card-output/github_dark/3-stats.svg" alt="Joel's GitHub activity stats" />
+  <img height="170" src="./profile-summary-card-output/github_dark/2-most-commit-language.svg" alt="Languages across Joel's GitHub commits" />
 </p>
+
+<sub>Generated from GitHub activity. Private repositories can contribute to aggregate counts and language totals without exposing repository names.</sub>
 
 ## 🌐 Find me around
 
@@ -46,6 +52,7 @@
 
 ---
 
-> **currently:** probably debugging an API or integration that "should work"  
-> **fun fact:** I enjoy (for some reason) giving structure to things that absolutely do not have structure  
+> **fun fact:** I enjoy (for some reason) giving structure to things that absolutely do not have structure.  
 > **yes:** Salesforce and n8n can involve actual software engineering 😌
+
+<sub>Pixel bunny by <a href="https://kanmandev.itch.io/bunny-animated">kanmandev</a>.</sub>

@@ -47,4 +47,3 @@
 
 > **yes:** Salesforce and n8n can involve actual software engineering 😌
 
-<sub>🐇 Rabbit animation by <a href="https://opengameart.org/content/drunk-rabbit">hansolo</a> · CC BY-SA 3.0</sub>

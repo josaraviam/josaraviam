@@ -1,0 +1,52 @@
+name: Refresh profile summary cards
+
+on:
+  schedule:
+    - cron: "17 9 * * 1"
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/profile-summary-cards.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-summary-cards
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Generate GitHub profile cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          # A fine-grained read-only PAT in SUMMARY_GITHUB_TOKEN adds aggregate
+          # private-repository activity. If it is not configured yet, GitHub's
+          # repository token keeps the cards working with public data.
+          GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN || github.token }}
+        with:
+          USERNAME: josaraviam
+          BRANCH_NAME: main
+          UTC_OFFSET: -6
+          AUTO_PUSH: false
+          THEME: github_dark
+          ANIMATION: load
+          DURATION: 1.6
+
+      - name: Commit refreshed cards
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile-summary-card-output
+          if git diff --cached --quiet; then
+            echo "Profile cards are already up to date."
+            exit 0
+          fi
+          git commit -m "chore: refresh profile summary cards"
+          git push

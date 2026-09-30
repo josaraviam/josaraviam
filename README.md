@@ -34,7 +34,6 @@
   <img height="170" src="./profile-summary-card-output/github_dark/2-most-commit-language.svg" alt="Languages across Joel's GitHub commits" />
 </p>
 
-<sub>Generated from GitHub activity and refreshed weekly. Private activity is included when the profile metrics token is enabled; private repository names are never displayed.</sub>
 
 ## 🌐 Find me around
 

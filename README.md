@@ -23,9 +23,12 @@
 
 🛠️ **And probably something work-related** — Salesforce, Meta/WhatsApp APIs, n8n, GCP, or whatever two systems someone decided should talk to each other.
 
-## 🧰 Things that tend to show up around here
+## 📈 GitHub at a glance
 
-Python, TypeScript, Salesforce, React, PostgreSQL, REST APIs, OAuth, GitHub Actions, n8n, GCP — and an unreasonable number of integrations.
+<p>
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=josaraviam&show_icons=true&theme=github_dark&hide_border=true&bg_color=00000000&rank_icon=github" alt="Joel's GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=josaraviam&layout=compact&theme=github_dark&hide_border=true&bg_color=00000000&langs_count=8&custom_title=Languages%20from%20public%20repos" alt="Most used languages across Joel's public repositories" />
+</p>
 
 ## 🌐 Find me around
 
@@ -43,6 +46,6 @@ Python, TypeScript, Salesforce, React, PostgreSQL, REST APIs, OAuth, GitHub Acti
 
 ---
 
-`currently: probably debugging an API or integration that "should work"`  
-`fun fact: I enjoy (for some reason) giving structure to things that absolutely do not have structure`  
-`yes, Salesforce and n8n can involve actual software engineering 😌`
+> **currently:** probably debugging an API or integration that "should work"  
+> **fun fact:** I enjoy (for some reason) giving structure to things that absolutely do not have structure  
+> **yes:** Salesforce and n8n can involve actual software engineering 😌

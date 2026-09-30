@@ -1,23 +1,15 @@
-<table>
-  <tr>
-    <td width="76%" valign="top">
-      <h1>Hey! I'm Joel 👋</h1>
-      <h3>Software Engineer · Salesforce · Applied AI · Probably automating something</h3>
-      <p>
-        🧑‍💻 I like turning complex and messy real-world problems into software.<br/>
-        🧩 I really enjoy giving structure to things that absolutely do not have any.<br/>
-        🔌 I also somehow enjoy debugging APIs and integrations that "should work".<br/>
-        🤖 Playing with AI agents, RAG, tool use, evals, and automation.<br/>
-        🌎 Based in Mexico.<br/>
-        🎮 When I'm not coding, there's a decent chance I'm playing something.
-      </p>
-      <p><strong>🧪 currently:</strong> probably debugging an API or integration that "should work".</p>
-    </td>
-    <td width="24%" valign="top" align="right">
-      <img src="./assets/panchito-pixel.svg" width="145" alt="Panchito-inspired ash-gray lop-eared pixel bunny" />
-    </td>
-  </tr>
-</table>
+# Hey! I'm Joel 👋
+
+### Software Engineer · Salesforce · Applied AI · Probably automating something
+
+🧑‍💻 I like turning complex and messy real-world problems into software.  
+🧩 I really enjoy giving structure to things that absolutely do not have any.  
+🔌 I also somehow enjoy debugging APIs and integrations that "should work".  
+🤖 Playing with AI agents, RAG, tool use, evals, and automation.  
+🌎 Based in Mexico.  
+🎮 When I'm not coding, there's a decent chance I'm playing something.
+
+**🧪 currently:** probably debugging an API or integration that "should work".
 
 ## 🚧 Currently building
 

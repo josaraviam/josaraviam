@@ -35,6 +35,9 @@
   <a href="https://www.linkedin.com/in/josaraviam">
     <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Joel%20Saravia-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
+  <a href="https://www.salesforce.com/trailblazer/df5a8ekye6w0lkkcts">
+    <img alt="Salesforce Trailblazer" src="https://img.shields.io/badge/Salesforce-Trailblazer-00A1E0?style=for-the-badge&logo=salesforce&logoColor=white" />
+  </a>
   <a href="https://www.skills.google/public_profiles/bac39fc6-7060-45c7-b2a1-ad83d291e0a2">
     <img alt="Google Skills" src="https://img.shields.io/badge/Google-Skills-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" />
   </a>
